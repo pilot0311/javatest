@@ -2,22 +2,24 @@
 public class exam07 {
 
 	public static void main(String[] args) {
-		// TODO ÀÚµ¿ »ı¼ºµÈ ¸Ş¼Òµå 
-		Car myCar1 = new Car("»¡°­",0);
-		Car myCar2 = new Car("ÆÄ¶û",0);
-		Car myCar3 = new Car("ÃÊ·Ï",0);
+		// TODO ìë™ ìƒì„±ëœ ë©”ì†Œë“œ 
+		Car myCar1 = new Car("ë¹¨ê°•",0);
+		Car myCar2 = new Car("íŒŒë‘",0);
+		Car myCar3 = new Car("ì´ˆë¡",0);
 		Car myCar4 = new Car(0);		
 		
 		myCar1.upSpeed(50);
-		System.out.println("ÀÚµ¿Â÷1ÀÇ »ö»óÀº "+myCar1.getColor()+" ÀÌ¸ç, ¼Óµµ´Â "+myCar1.getSpeed()+"km ÀÔ´Ï´Ù.");
+		System.out.println("ìë™ì°¨1ì˜ ìƒ‰ìƒì€ "+myCar1.getColor()+" ì´ë©°, ì†ë„ëŠ” "+myCar1.getSpeed()+"km ì…ë‹ˆë‹¤.");
 		
 		myCar2.downSpeed(20);
-		System.out.println("ÀÚµ¿Â÷2ÀÇ »ö»óÀº "+myCar2.getColor()+" ÀÌ¸ç, ¼Óµµ´Â "+myCar2.getSpeed()+"km ÀÔ´Ï´Ù.");
+		System.out.println("ìë™ì°¨2ì˜ ìƒ‰ìƒì€ "+myCar2.getColor()+" ì´ë©°, ì†ë„ëŠ” "+myCar2.getSpeed()+"km ì…ë‹ˆë‹¤.");
 		
 		myCar3.upSpeed(250);
-		System.out.println("ÀÚµ¿Â÷3ÀÇ »ö»óÀº "+myCar3.getColor()+" ÀÌ¸ç, ¼Óµµ´Â "+myCar3.getSpeed()+"km ÀÔ´Ï´Ù.");
+		System.out.println("ìë™ì°¨3ì˜ ìƒ‰ìƒì€ "+myCar3.getColor()+" ì´ë©°, ì†ë„ëŠ” "+myCar3.getSpeed()+"km ì…ë‹ˆë‹¤.");
 		myCar4.upSpeed(250);
-		System.out.println("ÀÚµ¿Â÷34ÀÇ »ö»óÀº "+myCar4.getColor()+" ÀÌ¸ç, ¼Óµµ´Â "+myCar4.getSpeed()+"km ÀÔ´Ï´Ù.");
+		System.out.println("ìë™ì°¨34ì˜ ìƒ‰ìƒì€ "+myCar4.getColor()+" ì´ë©°, ì†ë„ëŠ” "+myCar4.getSpeed()+"km ì…ë‹ˆë‹¤.");
+		System.out.println("ìë™ì°¨34ì˜ ìƒ‰ìƒì€ "+myCar4.getColor()+" ì´ë©°, ì†ë„ëŠ” "+myCar4.getSpeed()+"km ì…ë‹ˆë‹¤.");
+
 	}
 
 }
